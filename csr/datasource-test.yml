@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    #csr2:系统数据
+    csr2:
+      username: root
+      password: chenkuo123456
+      url: jdbc:mysql://192.168.100.28:3306/csr2?useUnicode=true&characterEncoding=utf8&useSSL=false
+      hikari:
+        poolName: mainDataSource
+        maximumPoolSize: 10
+        maxLifetime: 3600000
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useLocalSessionState: true
+        useLocalTransactionState: true
+        rewriteBatchedStatements: true
+        cacheResultSetMetadata: true
+        cacheServerConfiguration: true
+        elideSetAutoCommits: true
+        maintainTimeStats: false
+
+    #审贷相关数据
+    biz:
+      username: root
+      password: chenkuo123456
+      url: jdbc:mysql://192.168.100.28:3306/biz?useUnicode=true&characterEncoding=utf8&useSSL=false
+      hikari:
+        poolName: mainDataSource
+        maximumPoolSize: 10
+        maxLifetime: 3600000
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useLocalSessionState: true
+        useLocalTransactionState: true
+        rewriteBatchedStatements: true
+        cacheResultSetMetadata: true
+        cacheServerConfiguration: true
+        elideSetAutoCommits: true
+        maintainTimeStats: false

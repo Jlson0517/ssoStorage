@@ -1,0 +1,40 @@
+#爱税宝认证
+isb_url: http://asbv3.i-xinnuo.com/DataAcquisition/asb/bindData
+
+#风控模型计算接口
+risk-url: http://sit.ishuirong.com/api/open/risk/getRiskInfo
+
+# report
+report:
+  url: http://114.242.151.66:2226/ixinnuo_report/reportService/service
+
+#校验法人
+legal-person-check-url: http://172.16.16.9:9738/api/gzt
+
+#同步CRM接口
+sync_crm_url: http://192.168.100.126:80/cti/csr/sysnCSR2ApplyInfo
+
+#是否需要同步银行名称
+SYNCHRONIZE: false
+
+#银行注册接口
+BANK_REGISTER: http://asbtest.i-xinnuo.com/DataAcquisition/bank/reg
+
+#更新银行名称
+BANK_UPDATE: http://asbtest.i-xinnuo.com/DataAcquisition/bank/updateBankName
+
+#根据IP定位用户所在城市-高德
+system:
+  geolocation: https://restapi.amap.com/v3/ip?key=4b3a374781c14bf41f9f115bea01d34c
+  
+#百度ak
+id_baidu_ak: GyaRrCNFuHO7RLel4mcI5r42
+
+#百度sk
+id_baidu_sk: DDg5bYDklmNNAhQb2g24VvMd73QB7GBr
+
+#百度身份证校验
+id_card_check_url: https://aip.baidubce.com/rest/2.0/ocr/v1/idcard
+
+#百度营业执照校验
+business_license_check_url: https://aip.baidubce.com/rest/2.0/ocr/v1/business_license

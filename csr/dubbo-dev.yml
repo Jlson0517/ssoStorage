@@ -1,0 +1,5 @@
+# DUBBO
+dubbo:
+  registry:
+    address: zookeeper://192.168.100.13:2181
+    client: curator
